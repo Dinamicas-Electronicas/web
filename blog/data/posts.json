@@ -1,0 +1,449 @@
+[
+  {
+    "slug": "2026-11-19-expanse",
+    "repo": "expanse",
+    "repoName": "Expanse",
+    "repoUrl": "https://github.com/Dinamicas-Electronicas/expanse",
+    "projectPath": "/proyectos/expanse/",
+    "date": "2026-11-19",
+    "from": "2026-10-20",
+    "to": "2026-11-19T22:56:44.047Z",
+    "hidden": 0,
+    "commits": [
+      {
+        "sha": "692741f",
+        "date": "2026-11-19",
+        "type": "feat",
+        "scope": "ops",
+        "subject": "cuotas, límites de recursos y runbook de operaciones",
+        "url": "https://github.com/Dinamicas-Electronicas/expanse/commit/692741fc0b47d6151fcb66af6641be2a63274863"
+      },
+      {
+        "sha": "3c1d0d0",
+        "date": "2026-11-19",
+        "type": "feat",
+        "scope": "security",
+        "subject": "auditoría, revocación global y caducidad de shares",
+        "url": "https://github.com/Dinamicas-Electronicas/expanse/commit/3c1d0d09cf6f7dbd325cd315b1a01699ad789f03"
+      },
+      {
+        "sha": "9678dc1",
+        "date": "2026-11-19",
+        "type": "feat",
+        "scope": "stability",
+        "subject": "aplicar bloque P1 del SDD",
+        "url": "https://github.com/Dinamicas-Electronicas/expanse/commit/9678dc1c96363e557f3ff910d1917203770bd9f1"
+      },
+      {
+        "sha": "dda7fbe",
+        "date": "2026-11-19",
+        "type": "fix",
+        "scope": "security",
+        "subject": "aplicar bloque P0 del SDD",
+        "url": "https://github.com/Dinamicas-Electronicas/expanse/commit/dda7fbe93a123d4c747a36d762779dcf6ac43194"
+      },
+      {
+        "sha": "4e0bdb7",
+        "date": "2026-11-19",
+        "type": "docs",
+        "scope": null,
+        "subject": "atribuir el proyecto a Dinámicas Electrónicas y renovar el README",
+        "url": "https://github.com/Dinamicas-Electronicas/expanse/commit/4e0bdb77017c2edd21b98e5a7ec2195e830d1c1e"
+      },
+      {
+        "sha": "11ece9a",
+        "date": "2026-11-19",
+        "type": "docs",
+        "scope": null,
+        "subject": "add demo screenshot to README header",
+        "url": "https://github.com/Dinamicas-Electronicas/expanse/commit/11ece9a2bcace6de52af8795389d8e0f6119f8c4"
+      },
+      {
+        "sha": "ac2e1ee",
+        "date": "2026-11-19",
+        "type": "fix",
+        "scope": "security",
+        "subject": "harden auth, APIs and deploy flow; fix dashboard and save UX",
+        "url": "https://github.com/Dinamicas-Electronicas/expanse/commit/ac2e1ee00273cc749dd66ccbb7ddbc0a7fdb985d"
+      },
+      {
+        "sha": "807adb8",
+        "date": "2026-11-19",
+        "type": "fix",
+        "scope": "security",
+        "subject": "sanitize compose names, harden docker exec and upgrade deps",
+        "url": "https://github.com/Dinamicas-Electronicas/expanse/commit/807adb8978a96f4be94c80e3722aa55381179760"
+      }
+    ]
+  },
+  {
+    "slug": "2026-11-19-rss2",
+    "repo": "rss2",
+    "repoName": "RSS2",
+    "repoUrl": "https://github.com/Dinamicas-Electronicas/rss2",
+    "projectPath": "/proyectos/rss2/",
+    "date": "2026-11-19",
+    "from": "2026-10-20",
+    "to": "2026-11-19T22:54:09.023Z",
+    "hidden": 0,
+    "commits": [
+      {
+        "sha": "d4cb6b4",
+        "date": "2026-11-19",
+        "type": "fix",
+        "scope": "init-db",
+        "subject": "65 idempotente para aplicar el esquema desde cero",
+        "url": "https://github.com/Dinamicas-Electronicas/rss2/commit/d4cb6b46fa46c1a584fd6cfa6d6fb2ad79a0f6da"
+      },
+      {
+        "sha": "ce0fb4b",
+        "date": "2026-10-29",
+        "type": "docs",
+        "scope": null,
+        "subject": "fix quick start docker compose command for fresh clones",
+        "url": "https://github.com/Dinamicas-Electronicas/rss2/commit/ce0fb4bd3e23fa6ddfdf9392caf21558ba100795"
+      },
+      {
+        "sha": "b0dc9da",
+        "date": "2026-10-29",
+        "type": "feat",
+        "scope": null,
+        "subject": "trabajo en curso - TTS, tests, docs y workflows para push a GitHub",
+        "url": "https://github.com/Dinamicas-Electronicas/rss2/commit/b0dc9da803c246494b4910c23571803841b00bbb"
+      }
+    ]
+  },
+  {
+    "slug": "2026-11-19-chatland",
+    "repo": "chatland",
+    "repoName": "ChatLand",
+    "repoUrl": "https://github.com/Dinamicas-Electronicas/chatland",
+    "projectPath": "/proyectos/chatland/",
+    "date": "2026-11-19",
+    "from": "2026-10-20",
+    "to": "2026-11-19T22:54:09.023Z",
+    "hidden": 109,
+    "commits": [
+      {
+        "sha": "f4142c4",
+        "date": "2026-11-19",
+        "type": "feat",
+        "scope": "assets",
+        "subject": "catálogo S3/R2 y descarga bajo demanda",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/f4142c483d6cab3e2541ec3511e7285b9bedfa58"
+      },
+      {
+        "sha": "0499b64",
+        "date": "2026-11-19",
+        "type": "feat",
+        "scope": null,
+        "subject": "consolida 0.53 con iluminación conmutable y catálogo de 13 escenas",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/0499b64685f2da9b79352f8772061033f0b03cb3"
+      },
+      {
+        "sha": "73c4689",
+        "date": "2026-11-19",
+        "type": "feat",
+        "scope": null,
+        "subject": "adopta logo.webp como marca en README, Android y Godot",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/73c468966964feedf6e1bf18d2a739c97f57c220"
+      },
+      {
+        "sha": "f998bbb",
+        "date": "2026-11-18",
+        "type": "docs",
+        "scope": null,
+        "subject": "elimina documentación obsoleta y reescribe el README",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/f998bbbb73742b656da50db5711dbd905f41330e"
+      },
+      {
+        "sha": "b57a186",
+        "date": "2026-11-18",
+        "type": "feat",
+        "scope": null,
+        "subject": "estado actual de ChatLand con Godot y spatial v2",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/b57a186885b41b488ddd669a4171c2a8d31e990e"
+      },
+      {
+        "sha": "a037c1a",
+        "date": "2026-11-16",
+        "type": "feat",
+        "scope": null,
+        "subject": "chat de zona en el HUD Godot y sentarse autoritativo",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/a037c1a7c7e6599c780fdfd44f9f97b9ce1d1378"
+      },
+      {
+        "sha": "42c6184",
+        "date": "2026-11-16",
+        "type": "fix",
+        "scope": null,
+        "subject": "sincroniza el avatar local con la posición del servidor",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/42c618461d71dc5e5043f8f11636d341d5be55c6"
+      },
+      {
+        "sha": "57e405a",
+        "date": "2026-11-16",
+        "type": "feat",
+        "scope": null,
+        "subject": "pinta el layout del servidor en la zona Godot",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/57e405a67ebe0f026a6bd0f9d697978d96b0fe3e"
+      },
+      {
+        "sha": "ef19dce",
+        "date": "2026-11-16",
+        "type": "feat",
+        "scope": null,
+        "subject": "publica layout desde Godot con revisión y conflictos",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/ef19dce838611c433af20863c860ca1b6ff12d08"
+      },
+      {
+        "sha": "58096ef",
+        "date": "2026-11-16",
+        "type": "feat",
+        "scope": null,
+        "subject": "sincroniza el layout autoritativo con el editor Godot",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/58096ef17c81c58f948462bb0c19cb1f9cc2f895"
+      },
+      {
+        "sha": "9da0808",
+        "date": "2026-11-16",
+        "type": "feat",
+        "scope": null,
+        "subject": "integra editor de sala Godot con picking y guardado",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/9da0808a037387cd98d41be2c7104cdf49653ec8"
+      },
+      {
+        "sha": "1fb768b",
+        "date": "2026-11-16",
+        "type": "feat",
+        "scope": null,
+        "subject": "abre Godot automáticamente al entrar en 3D con servidor",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/1fb768bdeecd2fd48dc1491f78d51d56c606301c"
+      },
+      {
+        "sha": "c7c7b68",
+        "date": "2026-11-16",
+        "type": "feat",
+        "scope": null,
+        "subject": "cierra E5 para las 17 escenas con estudio navegable",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/c7c7b68e204189b04de64f3e34096d3b2884dfa2"
+      },
+      {
+        "sha": "3c94c3c",
+        "date": "2026-11-15",
+        "type": "feat",
+        "scope": null,
+        "subject": "cierra E5 con prefabs, validadores y aula navegable",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/3c94c3c9a3de75787d54c5ab6b2d8d135befd408"
+      },
+      {
+        "sha": "ea5344a",
+        "date": "2026-11-15",
+        "type": "feat",
+        "scope": null,
+        "subject": "publica ChatLand 0.50.0 con entrada de pruebas directa",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/ea5344a0f8688043aa5c42e085ebc835bf26a312"
+      },
+      {
+        "sha": "14d5e1d",
+        "date": "2026-11-15",
+        "type": "feat",
+        "scope": null,
+        "subject": "abre la build QA en un menú demo sin configuración",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/14d5e1d8db8bf23956da98b93c089c09ee088abc"
+      },
+      {
+        "sha": "552ce06",
+        "date": "2026-11-15",
+        "type": "docs",
+        "scope": null,
+        "subject": "actualiza APK de prueba con spatial.v2",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/552ce063ad9f2a6b2fe30a21cb98ea6488afac51"
+      },
+      {
+        "sha": "39ec3f2",
+        "date": "2026-11-15",
+        "type": "feat",
+        "scope": null,
+        "subject": "negocia spatial.v2 en el cliente nativo y zona QA",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/39ec3f2c6d4909bc5c796228178a057d64c17570"
+      },
+      {
+        "sha": "7c7ca2a",
+        "date": "2026-11-15",
+        "type": "fix",
+        "scope": null,
+        "subject": "suaviza cámara en salas estrechas y publica APK de prueba",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/7c7ca2ab6ce961b6f5cc98663e661556eb3f0ba2"
+      },
+      {
+        "sha": "45b48d4",
+        "date": "2026-11-15",
+        "type": "feat",
+        "scope": null,
+        "subject": "integra editor de avatar Godot con HUD y guardado",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/45b48d466c1977a2bb56b05d712140751fbec5e5"
+      },
+      {
+        "sha": "4b822f6",
+        "date": "2026-11-15",
+        "type": "feat",
+        "scope": null,
+        "subject": "integra ModeRouter y puente Godot v2 con tres modos",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/4b822f6d0eb8cff54dbc292e084549759ab27d67"
+      },
+      {
+        "sha": "9b04a1c",
+        "date": "2026-11-15",
+        "type": "docs",
+        "scope": null,
+        "subject": "cierra E1 con PCK reproducible y E2E x86_64/arm64",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/9b04a1c194efda5ea8fd38645ce64781de7ee356"
+      },
+      {
+        "sha": "67908cd",
+        "date": "2026-11-15",
+        "type": "feat",
+        "scope": null,
+        "subject": "estabiliza build Godot QA en x86_64 y arm64",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/67908cd4bc1b418b66d85c4199571aeb2d5008c6"
+      },
+      {
+        "sha": "730f56c",
+        "date": "2026-11-15",
+        "type": "feat",
+        "scope": null,
+        "subject": "integra escenas aula y estudio y su pipeline Blender",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/730f56c3537d751f7afb110de540d088df6cca1a"
+      },
+      {
+        "sha": "ae819b4",
+        "date": "2026-11-15",
+        "type": "docs",
+        "scope": null,
+        "subject": "registra E1a offline en x86_64 y arm64",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/ae819b41dbb7bb54710059a69d46f4199c721711"
+      },
+      {
+        "sha": "8685817",
+        "date": "2026-11-15",
+        "type": "docs",
+        "scope": null,
+        "subject": "cierra E0 con auditoría real de Godot 0.45",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/8685817727cfa10a6b9ceab712580e77b1d436ca"
+      },
+      {
+        "sha": "4499790",
+        "date": "2026-11-15",
+        "type": "docs",
+        "scope": null,
+        "subject": "integra riesgos de servidor, Godot y assets en el README",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/4499790dc3375b2b7f893f5688d4ee3299236159"
+      },
+      {
+        "sha": "e98798c",
+        "date": "2026-11-15",
+        "type": "docs",
+        "scope": null,
+        "subject": "añade hallazgos de endurecimiento y aclara funciones reales",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/e98798cc50e76e2319c81a47f4e31bb805b93192"
+      },
+      {
+        "sha": "c42c8fa",
+        "date": "2026-11-15",
+        "type": "docs",
+        "scope": null,
+        "subject": "integra el estado real del proyecto en el README",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/c42c8fa7e97741d358e0dba473c3a0042d8bb60b"
+      },
+      {
+        "sha": "b1836cd",
+        "date": "2026-11-15",
+        "type": "docs",
+        "scope": null,
+        "subject": "reescribe el estado actual completo del proyecto",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/b1836cdaccf6c88f9a81c92a00d227407eaf1685"
+      },
+      {
+        "sha": "0ce3a1b",
+        "date": "2026-11-15",
+        "type": "docs",
+        "scope": null,
+        "subject": "separa límites de Godot de funciones pendientes de portar",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/0ce3a1b8b7013c606d5181c8784979fc5559854d"
+      },
+      {
+        "sha": "4cdf240",
+        "date": "2026-11-15",
+        "type": "docs",
+        "scope": null,
+        "subject": "fija Godot como motor único y plan de retirada de Filament",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/4cdf24073010cb3102fc2d8364b0549ea0ec80ae"
+      },
+      {
+        "sha": "7e6462d",
+        "date": "2026-11-15",
+        "type": "fix",
+        "scope": null,
+        "subject": "elimina el centelleo de cámara con MSAA y margen de pared",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/7e6462d084379a5017dbac7b911b4d6045ee1bdf"
+      },
+      {
+        "sha": "4b84f0e",
+        "date": "2026-11-15",
+        "type": "fix",
+        "scope": null,
+        "subject": "unifica avatar local, cámaras y gestos en la sala 3D",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/4b84f0edeb3f58a36c2f5fb08f133328e17c780b"
+      },
+      {
+        "sha": "3034b66",
+        "date": "2026-11-15",
+        "type": "fix",
+        "scope": null,
+        "subject": "estabiliza cámara y muestra avatar local",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/3034b66ee6aa920588235e58bc89d8d4536250d4"
+      },
+      {
+        "sha": "0dfb6fa",
+        "date": "2026-11-15",
+        "type": "feat",
+        "scope": null,
+        "subject": "convierte el paso 5 en editor de personaje",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/0dfb6fa97a661e78be8d0cb292a84ea36062737e"
+      },
+      {
+        "sha": "a063253",
+        "date": "2026-11-15",
+        "type": "fix",
+        "scope": null,
+        "subject": "reorganiza el HUD de la sala 3D",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/a063253ba5134597018bc72a759233a6867a9ab1"
+      },
+      {
+        "sha": "05fbbcb",
+        "date": "2026-11-15",
+        "type": "feat",
+        "scope": null,
+        "subject": "persiste el historial de layout F5",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/05fbbcbff901d66d116a017e191901fb3002d62a"
+      },
+      {
+        "sha": "ff3d49f",
+        "date": "2026-11-15",
+        "type": "feat",
+        "scope": null,
+        "subject": "añade rehacer al editor F5",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/ff3d49f47131f71cb3678078b3074180268d5e63"
+      },
+      {
+        "sha": "92d8f48",
+        "date": "2026-11-15",
+        "type": "feat",
+        "scope": null,
+        "subject": "añade deshacer al editor F5",
+        "url": "https://github.com/Dinamicas-Electronicas/chatland/commit/92d8f48344f36d91a594e61b319a7127108301f9"
+      }
+    ]
+  }
+]

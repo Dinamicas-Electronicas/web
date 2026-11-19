@@ -1,0 +1,42 @@
+{
+  "site": {
+    "baseUrl": "https://dinamicas-electronicas.github.io/web",
+    "name": "Dinámicas Electrónicas"
+  },
+  "initialDays": 30,
+  "maxCommitsPerPost": 40,
+  "repos": [
+    {
+      "slug": "expanse",
+      "name": "Expanse",
+      "repo": "Dinamicas-Electronicas/expanse",
+      "description": "IDE visual para Docker Compose",
+      "projectPath": "/proyectos/expanse/",
+      "projectPathEn": "/projects/expanse/"
+    },
+    {
+      "slug": "rss2",
+      "name": "RSS2",
+      "repo": "Dinamicas-Electronicas/rss2",
+      "description": "Agregador multilingüe de noticias RSS",
+      "projectPath": "/proyectos/rss2/",
+      "projectPathEn": "/projects/rss2/"
+    },
+    {
+      "slug": "chatland",
+      "name": "ChatLand",
+      "repo": "Dinamicas-Electronicas/chatland",
+      "description": "Cliente Android de chat XMPP con zonas 3D",
+      "projectPath": "/proyectos/chatland/",
+      "projectPathEn": "/projects/chatland/"
+    },
+    {
+      "slug": "vuigram",
+      "name": "Vuigram",
+      "repo": "lordpietre/vuigram",
+      "description": "Comercios y servicios a través de Telegram",
+      "projectPath": "/proyectos/vuigram/",
+      "projectPathEn": "/projects/vuigram/"
+    }
+  ]
+}
