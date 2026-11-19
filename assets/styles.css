@@ -176,6 +176,12 @@ strong {
   color: var(--color-accent);
 }
 
+img.logo-wordmark__mark {
+  padding: 2px;
+  background: #ffffff;
+  border-radius: 0.45rem;
+}
+
 .logo-wordmark__text {
   white-space: nowrap;
 }
@@ -381,6 +387,21 @@ strong {
   opacity: 0.35;
   mask-image: radial-gradient(ellipse 80% 70% at 50% 0%, #000 20%, transparent 75%);
   -webkit-mask-image: radial-gradient(ellipse 80% 70% at 50% 0%, #000 20%, transparent 75%);
+}
+
+.hero__logo {
+  margin: 0 0 1.75rem;
+}
+
+.hero__logo img {
+  display: block;
+  width: min(100%, 24rem);
+  height: auto;
+  padding: 1rem 1.25rem;
+  background: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
 }
 
 .hero__eyebrow,
