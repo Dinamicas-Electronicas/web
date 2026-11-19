@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>Dinámicas Electrónicas Blog</title>
-<link>https://dinamicas-electronicas.github.io/web/en/blog/</link>
+<link>https://dinamicas-electronicas.github.io/en/blog/</link>
 <description>Technical news generated from the project repositories.</description>
 <language>en</language>
 <lastBuildDate>Thu, 19 Nov 2026 12:00:00 GMT</lastBuildDate>
-<atom:link href="https://dinamicas-electronicas.github.io/web/en/blog/feed.xml" rel="self" type="application/rss+xml"/>
-<item><title>Expanse: updates for Oct 20, 2026 – Nov 19, 2026</title><link>https://dinamicas-electronicas.github.io/web/en/blog/2026-11-19-expanse/</link><guid isPermaLink="true">https://dinamicas-electronicas.github.io/web/en/blog/2026-11-19-expanse/</guid><pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate><description>3 features, 3 fixes and 2 documentation changes</description></item>
-<item><title>RSS2: updates for Oct 20, 2026 – Nov 19, 2026</title><link>https://dinamicas-electronicas.github.io/web/en/blog/2026-11-19-rss2/</link><guid isPermaLink="true">https://dinamicas-electronicas.github.io/web/en/blog/2026-11-19-rss2/</guid><pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate><description>1 feature, 1 fix and 1 documentation change</description></item>
-<item><title>ChatLand: updates for Oct 20, 2026 – Nov 19, 2026</title><link>https://dinamicas-electronicas.github.io/web/en/blog/2026-11-19-chatland/</link><guid isPermaLink="true">https://dinamicas-electronicas.github.io/web/en/blog/2026-11-19-chatland/</guid><pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate><description>23 features, 6 fixes and 11 documentation changes</description></item>
+<atom:link href="https://dinamicas-electronicas.github.io/en/blog/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Expanse: updates for Oct 20, 2026 – Nov 19, 2026</title><link>https://dinamicas-electronicas.github.io/en/blog/2026-11-19-expanse/</link><guid isPermaLink="true">https://dinamicas-electronicas.github.io/en/blog/2026-11-19-expanse/</guid><pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate><description>4 features, 3 fixes and 2 documentation changes</description></item>
+<item><title>RSS2: updates for Oct 20, 2026 – Nov 19, 2026</title><link>https://dinamicas-electronicas.github.io/en/blog/2026-11-19-rss2/</link><guid isPermaLink="true">https://dinamicas-electronicas.github.io/en/blog/2026-11-19-rss2/</guid><pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate><description>1 feature, 1 fix and 1 documentation change</description></item>
+<item><title>ChatLand: updates for Oct 20, 2026 – Nov 19, 2026</title><link>https://dinamicas-electronicas.github.io/en/blog/2026-11-19-chatland/</link><guid isPermaLink="true">https://dinamicas-electronicas.github.io/en/blog/2026-11-19-chatland/</guid><pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate><description>23 features, 6 fixes and 11 documentation changes</description></item>
 </channel>
 </rss>
