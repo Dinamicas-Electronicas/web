@@ -685,6 +685,88 @@ strong {
   font-weight: 550;
 }
 
+/* Stack tecnológico ------------------------------------------------------ */
+
+.tech-groups {
+  display: grid;
+  gap: 2rem;
+}
+
+.tech-group__title {
+  margin: 0 0 0.9rem;
+  color: var(--color-accent);
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 9.5rem), 1fr));
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+  height: 100%;
+  margin: 0;
+  padding: 1rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  transition:
+    border-color 160ms ease,
+    transform 160ms ease;
+}
+
+.tech-item:hover {
+  border-color: color-mix(in srgb, var(--color-accent) 55%, var(--color-border));
+  transform: translateY(-2px);
+}
+
+.tech-item__logo {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  margin-bottom: 0.35rem;
+  background: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: 0.65rem;
+}
+
+.tech-item__logo img {
+  display: block;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.tech-item__name {
+  font-size: var(--step--1);
+  font-weight: 650;
+  line-height: 1.25;
+}
+
+.tech-item__use {
+  color: var(--color-muted);
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
+.tech-note {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  max-width: 70ch;
+}
+
 /* Footer ---------------------------------------------------------------- */
 
 .site-footer {
