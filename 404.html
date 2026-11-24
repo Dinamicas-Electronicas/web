@@ -3,18 +3,64 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Redirigiendo · Dinámicas Electrónicas</title>
+    <title>Página no encontrada · Dinámicas Electrónicas</title>
     <meta name="robots" content="noindex">
-    <meta http-equiv="refresh" content="0; url=/">
-    <script>
-      (function () {
-        var path = window.location.pathname.replace(/^\/web(?=\/|$)/, "");
-        if (!path) path = "/";
-        window.location.replace(path + window.location.search + window.location.hash);
-      })();
-    </script>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/styles.css">
+    <style>
+      .error-page {
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+        padding-block: 4rem;
+      }
+      .error-page__inner {
+        max-width: 42rem;
+        margin-inline: auto;
+        text-align: center;
+      }
+      .error-page__code {
+        margin: 0;
+        font-family: var(--font-mono);
+        font-size: var(--step-4);
+        font-weight: 700;
+        color: var(--color-accent);
+        line-height: 1;
+      }
+      .error-page__title {
+        margin: 0.75rem 0 1rem;
+        font-size: var(--step-2);
+      }
+      .error-page__text {
+        margin: 0 0 2rem;
+        color: var(--color-muted);
+      }
+      .error-page__actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
   </head>
   <body>
-    <p>Esta página se ha movido a <a href="https://dinamicas-electronicas.github.io/">dinamicas-electronicas.github.io</a>.</p>
+    <main class="error-page">
+      <div class="container error-page__inner">
+        <p class="error-page__code">404</p>
+        <h1 class="error-page__title">Esta página no existe</h1>
+        <p class="error-page__text">
+          La dirección puede haber cambiado o el enlace estar roto.
+          <br><span lang="en">This page does not exist. The address may have changed or the link may be broken.</span>
+        </p>
+        <ul class="error-page__actions">
+          <li><a class="btn btn--primary" href="/">Ir a la portada</a></li>
+          <li><a class="btn btn--ghost" href="/proyectos/">Ver proyectos</a></li>
+          <li><a class="btn btn--ghost" href="/en/" hreflang="en" lang="en">English</a></li>
+        </ul>
+      </div>
+    </main>
   </body>
 </html>

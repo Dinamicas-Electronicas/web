@@ -1,0 +1,78 @@
+name: Publicar el sitio
+
+on:
+  push:
+    branches: [gh-pages]
+  workflow_dispatch:
+  workflow_call:
+
+# Permisos mínimos que necesita GitHub Pages para publicar el artefacto.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Un único despliegue a la vez. No se cancelan los que ya están en curso.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  preparar:
+    name: Preparar el sitio
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+        with:
+          # Publica siempre el último commit de la rama del sitio, también
+          # cuando el despliegue lo lanza el workflow del blog.
+          ref: gh-pages
+
+      - name: Comprobar el sitio
+        run: |
+          test -f index.html
+          test -f CNAME
+          test -f .nojekyll
+
+          if ! grep -qx 'dinamicaselectronicas.com' CNAME; then
+            echo "::error file=CNAME::El dominio debe ser dinamicaselectronicas.com"
+            exit 1
+          fi
+
+          if grep -rIl 'dinamicas-electronicas.github.io' \
+            --exclude-dir=.git --exclude-dir=.github --exclude-dir=_site \
+            --include='*.html' --include='*.xml' --include='*.json' .; then
+            echo "::error::Quedan referencias al dominio antiguo en los archivos anteriores"
+            exit 1
+          fi
+
+      - name: Reunir los archivos estáticos
+        # El sitio no necesita compilación: solo se copia lo que debe publicarse.
+        run: |
+          mkdir -p _site
+          rsync -a \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='_site' \
+            ./ _site/
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Empaquetar el sitio
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  desplegar:
+    name: Desplegar en GitHub Pages
+    needs: preparar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.publicacion.outputs.page_url }}
+    steps:
+      - name: Publicar
+        id: publicacion
+        uses: actions/deploy-pages@v4
