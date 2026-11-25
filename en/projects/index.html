@@ -145,18 +145,19 @@ EN
         <div class="showcase__content">
           <p class="showcase__index">03 — Data and language</p>
           <h2 class="showcase__name">RSS2</h2>
-          <p class="showcase__tagline">Multilingual RSS news aggregator</p>
+          <p class="showcase__tagline">Multilingual news archive to leave the echo chamber behind</p>
           <div class="showcase__body">
-            <p>RSS2 turns thousands of RSS and Atom sources into a searchable news archive. A Go ingestor scans the feeds every eight minutes and discards duplicates; a chain of workers then detects the language, translates into Spanish with NLLB-200, extracts entities with spaCy, computes embeddings and groups the stories that cover the same event.</p>
-            <p>Search combines semantic similarity through pgvector with date, topic, country and category filters. The optional voice subsystem lets you search for news, review the script, generate the narration and assemble a bulletin with two editorial approvals before anything is published.</p>
+            <p>RSS2 gathers thousands of RSS and Atom feeds published by outlets around the world, keeps the original text and translates it into Spanish on your own machine with NLLB-200. It then extracts entities, computes embeddings and groups the news that tell the same story so you can compare them.</p>
+            <p>The idea is simple: if you only read what an algorithm picks for you, you end up living in an echo chamber. RSS2 goes to the source, shows who says what and leaves interpretation in your hands. Search combines semantic similarity with date, topic, country and category filters, and the optional voice bulletin turns a selection of stories into a newsreel with an editable script and two approvals.</p>
+            <p>It installs with Docker or as native Windows 11 services, with portable PostgreSQL and no Redis or nginx. The models work offline and your data never leaves your machine.</p>
           </div>
           <ul class="showcase__features">
-            <li><strong>Ingestion</strong><span>Go, every 8 minutes and without duplicates.</span></li>
-            <li><strong>Translation</strong><span>NLLB-200 on CPU or GPU with CTranslate2.</span></li>
+            <li><strong>Ingestion</strong><span>Go, every 15 minutes and without duplicates.</span></li>
+            <li><strong>Local translation</strong><span>NLLB-200 on CPU or GPU, no cloud.</span></li>
             <li><strong>Semantic search</strong><span>pgvector, entities and combined filters.</span></li>
-            <li><strong>Voice bulletin</strong><span>Editable script and two approvals.</span></li>
+            <li><strong>Docker or Windows 11</strong><span>Containers or native services.</span></li>
           </ul>
-          <p class="showcase__meta"><span class="chip chip--accent">Active development</span><span class="chip">MIT (code)</span><span class="chip">PostgreSQL + pgvector</span></p>
+          <p class="showcase__meta"><span class="chip chip--accent">Active development</span><span class="chip">MIT (code)</span><span class="chip">Docker + Windows 11</span><span class="chip">PostgreSQL + pgvector</span></p>
           <div class="showcase__links">
             <a class="btn btn--primary" href="/en/projects/rss2/">Full project page</a>
             <a class="btn btn--ghost" href="https://github.com/Dinamicas-Electronicas/rss2" target="_blank" rel="noopener noreferrer">Repository</a>

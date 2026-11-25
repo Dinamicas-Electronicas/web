@@ -830,6 +830,12 @@ img.logo-wordmark__mark {
   box-shadow: var(--shadow-sm);
 }
 
+.project-hero__logo--cover {
+  padding: 0;
+  background: var(--color-dark);
+  object-fit: cover;
+}
+
 .project-hero__title {
   margin: 0;
   font-size: var(--step-4);
