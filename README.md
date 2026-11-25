@@ -16,7 +16,9 @@ Pages. La rama de trabajo y de publicación es `gh-pages`.
 | `proyectos/` | Índice y fichas de Expanse, RSS2, ChatLand y Vuigram. |
 | `en/` | Versión inglesa del sitio. |
 | `blog/` | Blog y feeds RSS. Las entradas se generan automáticamente. |
-| `assets/` | Estilos, logotipos e imágenes. |
+| `assets/` | Estilos, scripts, logotipos e imágenes. |
+| `favicon.svg` | Icono del sitio. |
+| `site.webmanifest` | Iconos y metadatos de la aplicación web. |
 | `404.html` | Página de error para rutas inexistentes. |
 | `CNAME` | Dominio personalizado (`dinamicaselectronicas.com`). |
 | `blog/automation/` | Generador y configuración del blog automático. |

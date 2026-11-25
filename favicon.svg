@@ -1,9 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Dinámicas Electrónicas">
   <rect width="64" height="64" rx="14" fill="#0a131d"/>
-  <g stroke="#17b3aa" stroke-width="3" fill="none" stroke-linecap="round">
-    <path d="M12 46 L24 28 L36 38 L52 20"/>
-    <circle cx="24" cy="28" r="6" fill="#17b3aa" stroke="none"/>
-    <circle cx="36" cy="38" r="6" fill="#17b3aa" stroke="none"/>
-    <circle cx="52" cy="20" r="6" fill="#17b3aa" stroke="none"/>
+  <circle cx="32" cy="32" r="21" fill="none" stroke="#17b3aa" stroke-opacity="0.35" stroke-width="2"/>
+  <g stroke="#17b3aa" stroke-width="2.4" stroke-linecap="round" fill="none">
+    <path d="M32 32V15"/>
+    <path d="M32 32l14 11"/>
+    <path d="M32 32 18 43"/>
+  </g>
+  <g>
+    <rect x="26" y="26" width="12" height="12" rx="2" fill="#17b3aa"/>
+    <g stroke="#17b3aa" stroke-width="2" stroke-linecap="round">
+      <path d="M29 26v-4M35 26v-4M29 38v4M35 38v4M26 29h-4M26 35h-4M38 29h4M38 35h4"/>
+    </g>
+    <rect x="27" y="6" width="10" height="10" rx="2" fill="#0e7fbf"/>
+    <rect x="44" y="38" width="10" height="10" rx="2" fill="#17b3aa"/>
+    <rect x="10" y="38" width="10" height="10" rx="2" fill="#17b3aa"/>
   </g>
 </svg>
