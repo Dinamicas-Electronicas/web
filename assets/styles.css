@@ -1859,3 +1859,28 @@ img.logo-wordmark__mark {
 .hero--home::before {
   display: none;
 }
+
+/* Keep the message and its available travel together at every screen size. */
+.motion-message {
+  --travel: clamp(1.25rem, 5vw, 4.75rem);
+  padding-block: var(--travel);
+}
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .motion-message {
+      view-timeline-name: --message;
+      view-timeline-axis: block;
+    }
+    .motion-message > * {
+      animation: message-drift linear both;
+      animation-timeline: --message;
+      animation-range: entry 0% exit 100%;
+    }
+    @keyframes message-drift {
+      from { transform: translateY(calc(-1 * var(--travel))); }
+      to { transform: translateY(var(--travel)); }
+    }
+  }
+}
+
+.hero--home, .parallax-band { overflow: clip; }

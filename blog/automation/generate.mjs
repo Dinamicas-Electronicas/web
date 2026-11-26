@@ -433,8 +433,8 @@ function renderIndex(posts, lang) {
   const base = shellFor(lang);
   const description =
     lang === "es"
-      ? "Resúmenes automáticos de las mejoras publicadas en los repositorios de Expanse, RSS2, ChatLand y Vuigram."
-      : "Automatic summaries of the improvements published in the Expanse, RSS2, ChatLand and Vuigram repositories.";
+      ? "Resúmenes automáticos de las mejoras publicadas en los repositorios de Dinámicas Electrónicas."
+      : "Automatic summaries of the improvements published in our project repositories.";
 
   const html = applyHead(base, {
     lang,

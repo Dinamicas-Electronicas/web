@@ -32,11 +32,27 @@
     },
     {
       "slug": "vuigram",
-      "name": "Vuigram",
-      "repo": "Dinamicas-Electronicas/vuigram",
+      "name": "Kagosiru",
+      "repo": "lordpietre/kagosiru",
       "description": "Comercios y servicios a través de Telegram",
       "projectPath": "/proyectos/vuigram/",
       "projectPathEn": "/projects/vuigram/"
+    },
+    {
+      "slug": "ssh05",
+      "name": "ssh05",
+      "repo": "lordpietre/ssh05",
+      "description": "Cliente OpenSSH con sesiones persistentes",
+      "projectPath": "/proyectos/ssh05/",
+      "projectPathEn": "/projects/ssh05/"
+    },
+    {
+      "slug": "aten-ia",
+      "name": "aten-ia",
+      "repo": "lordpietre/aten-ia",
+      "description": "Agente local de IA en Rust",
+      "projectPath": "/proyectos/aten-ia/",
+      "projectPathEn": "/projects/aten-ia/"
     }
   ]
 }
