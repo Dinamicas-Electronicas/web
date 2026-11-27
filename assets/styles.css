@@ -1909,3 +1909,73 @@ img.logo-wordmark__mark {
 .ssh05-example code, .ssh05-example .section__eyebrow { color: #75edc9; }
 .ssh05-example code { font-size: var(--step-1); }
 .ssh05-example p { margin: 1.1rem 0 .3rem; }
+
+/* Project catalogue and shared project identities */
+.projects-hero {
+  color: #f5f8fa;
+  background: radial-gradient(ellipse at 92% 10%, #164d52, transparent 48%), #0c202a;
+  padding-block: clamp(3rem, 7vw, 6.5rem);
+}
+.projects-hero__title { max-width: 18ch; font-size: clamp(2.65rem, 6.8vw, 6rem); letter-spacing: -.055em; color: inherit; }
+.projects-hero .section__eyebrow { color: #8ce5cc; }
+.projects-hero__mission { color: #d3e3e5; }
+.projects-hero .motion-message { --travel: clamp(1.5rem, 5vw, 4rem); }
+.project-jump { display: flex; gap: .5rem; flex-wrap: wrap; }
+.project-jump a { color: #eef8f6; padding: .55rem .95rem; border: 1px solid #668783; border-radius: 2rem; text-decoration: none; }
+.project-jump a:is(:hover,:focus-visible) { color: #102b35; background: #a6ecd9; }
+.project-list { gap: 0; }
+.project-list .showcase {
+  grid-template-areas: "head head" "media copy";
+  grid-template-columns: minmax(0,1fr) minmax(0,1fr);
+  align-items: start;
+  row-gap: 1rem;
+  padding-block: clamp(2.5rem, 6vw, 5rem);
+  border-bottom: 1px solid var(--color-border);
+  scroll-margin-top: 5.5rem;
+}
+.project-heading { grid-area: head; }
+.project-hero__brand { align-items: center; gap: 1rem; }
+.project-heading .project-hero__brand { margin-block: .65rem 0; }
+.project-heading .showcase__name { font-size: clamp(2.3rem, 5.8vw, 4.5rem); line-height: 1; letter-spacing: -.05em; }
+.project-heading .project-hero__logo, .project-card .project-hero__logo,
+.project-heading .project-initial, .project-card .project-initial { width: 3.75rem; height: 3.75rem; }
+.project-initial {
+  display: inline-grid; place-items: center; flex: none; width: 5rem; height: 5rem;
+  border-radius: var(--radius-md); color: #ccf6ea; background: #124248;
+  font: 600 2.5rem/1 var(--font-mono);
+}
+.project-message { padding-block: clamp(1.55rem, 3.5vw, 3rem); }
+.project-message .showcase__tagline { margin: 0; max-width: 38ch; font-size: clamp(1.25rem, 2.4vw, 2rem); }
+.showcase__content { grid-area: copy; }
+.project-list .showcase__media {
+  grid-area: media; width: 100%; aspect-ratio: 4 / 3; min-height: 0;
+  box-shadow: 0 18px 36px -20px rgb(0 25 35 / 45%);
+}
+.showcase__media-inner { inset: -16% 0; }
+.showcase__media-inner img { object-position: center; }
+.kagorisu-showcase .showcase__media-inner { inset: 0; }
+.kagorisu-showcase .showcase__media-inner img { padding: 18%; }
+.example-panel { background: #162c34; color: #eef8f6; }
+.showcase__media .example-inner { display: grid; align-content: center; inset-inline: 10%; }
+.document-flow { display: grid; gap: .85rem; font-family: var(--font-mono); }
+.document-flow span { padding: .6rem 1rem; border-inline-start: 3px solid #7ce1c3; background: #213c43; }
+.project-intro { border-bottom: 1px solid var(--color-border); background: linear-gradient(115deg, color-mix(in srgb,var(--color-accent) 10%,var(--color-bg)), var(--color-bg) 68%); }
+.project-intro .project-hero__brand { margin-block: .85rem; }
+.project-intro .hero__lead { max-width: 66ch; }
+.project-intro .motion-message { --travel: clamp(2rem, 6vw, 6rem); }
+@media (prefers-reduced-motion: no-preference) {
+  .project-message .showcase__tagline { transform: translateY(var(--parallax, 0px)); }
+  .showcase__media-inner { transform: translateY(var(--parallax, 0px)); }
+}
+@media (max-width: 59.99rem) {
+  .project-list .showcase { grid-template-areas: "head" "media" "copy"; grid-template-columns: minmax(0,1fr); }
+  .project-list .showcase__media { aspect-ratio: 16 / 10; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .motion-message, .project-message { padding-block: 1.5rem; }
+}
+
+/* Keep the full application window visible within its moving frame. */
+.showcase figure:not(.kagorisu-showcase) { background: radial-gradient(ellipse at 45% 30%, #284a56, #101f2b 80%); }
+.showcase figure:not(.kagorisu-showcase) .showcase__media-inner { inset: 0 5%; }
+.showcase figure:not(.kagorisu-showcase) img { object-fit: contain; filter: drop-shadow(0 .75rem 1rem rgb(0 0 0 / 30%)); }

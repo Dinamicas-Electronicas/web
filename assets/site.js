@@ -1,7 +1,8 @@
 (function () {
   "use strict";
 
-  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var motionPreference = window.matchMedia("(prefers-reduced-motion: reduce)");
+  var reduceMotion = motionPreference.matches;
   var layers = Array.prototype.slice.call(document.querySelectorAll("[data-scroll-speed]"));
   var media = Array.prototype.slice.call(document.querySelectorAll("[data-parallax]"));
   var progressBar = document.querySelector("[data-scroll-progress]");
@@ -26,7 +27,8 @@
         if (rect.bottom < -240 || rect.top > viewport + 240) return;
         var speed = parseFloat(item.getAttribute("data-parallax")) || 0;
         var center = rect.top + rect.height / 2 - viewport / 2;
-        var offset = clamp((-center / viewport) * speed * 160, -48, 48);
+        var limit = window.innerWidth < 768 ? 42 : 80;
+        var offset = clamp(-center / viewport, -0.65, 0.65) * limit * speed / 0.65;
         item.style.setProperty("--parallax", offset.toFixed(1) + "px");
       });
     }
@@ -48,6 +50,14 @@
 
   window.addEventListener("scroll", requestUpdate, { passive: true });
   window.addEventListener("resize", requestUpdate);
+  motionPreference.addEventListener("change", function () {
+    reduceMotion = motionPreference.matches;
+    if (reduceMotion) {
+      media.forEach(function (item) { item.style.removeProperty("--parallax"); });
+      layers.forEach(function (layer) { layer.style.removeProperty("transform"); });
+    }
+    requestUpdate();
+  });
   update();
 
   var revealItems = Array.prototype.slice.call(document.querySelectorAll(".reveal"));
