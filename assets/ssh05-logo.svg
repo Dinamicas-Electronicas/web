@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">ssh05</title>
+  <rect x="4" y="4" width="120" height="120" rx="22" fill="#102b35"/>
+  <path d="m29 29 18 13-18 13m26 0h18" fill="none" stroke="#75edc9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="64" y="94" text-anchor="middle" font-family="Consolas, monospace" font-size="34" font-weight="700" fill="#fff">ssh05</text>
+</svg>
