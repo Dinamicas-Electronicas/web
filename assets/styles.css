@@ -1979,3 +1979,52 @@ img.logo-wordmark__mark {
 .showcase figure:not(.kagorisu-showcase) { background: radial-gradient(ellipse at 45% 30%, #284a56, #101f2b 80%); }
 .showcase figure:not(.kagorisu-showcase) .showcase__media-inner { inset: 0 5%; }
 .showcase figure:not(.kagorisu-showcase) img { object-fit: contain; filter: drop-shadow(0 .75rem 1rem rgb(0 0 0 / 30%)); }
+/* Full-screen pastel chapters for the project catalogue */
+.project-list { gap: 0; }
+.project-list .showcase {
+  position: relative;
+  isolation: isolate;
+  min-height: min(92svh, 940px);
+  align-content: center;
+  padding-block: clamp(4rem, 8vw, 7rem);
+  border: 0;
+}
+.project-list .showcase::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0 50%;
+  width: 100vw;
+  content: "";
+  transform: translateX(-50%);
+  background: var(--chapter-bg);
+}
+.project-list .showcase:nth-child(6n + 1) { --chapter-bg: #f4e9db; }
+.project-list .showcase:nth-child(6n + 2) { --chapter-bg: #e3f1e8; }
+.project-list .showcase:nth-child(6n + 3) { --chapter-bg: #e4edf8; }
+.project-list .showcase:nth-child(6n + 4) { --chapter-bg: #f5e5ec; }
+.project-list .showcase:nth-child(6n + 5) { --chapter-bg: #e9e5f6; }
+.project-list .showcase:nth-child(6n) { --chapter-bg: #f7edcf; }
+.project-list .showcase__content {
+  padding: clamp(1.15rem, 2.4vw, 2rem);
+  border: 1px solid rgb(34 48 58 / 9%);
+  border-radius: var(--radius-lg);
+  background: rgb(255 255 255 / 68%);
+  box-shadow: 0 24px 70px -48px rgb(20 32 43 / 45%);
+  backdrop-filter: blur(12px);
+}
+.project-list .project-heading { padding-inline: .25rem; }
+.project-list .showcase__index { color: #315e59; }
+.project-message { padding-block: clamp(2rem, 5vw, 4.5rem); }
+.project-message .showcase__tagline { font-size: clamp(1.55rem, 3.2vw, 2.7rem); }
+.project-list .showcase__media { box-shadow: 0 35px 75px -35px rgb(20 32 43 / 58%); }
+.project-list .kagorisu-showcase { background: #fff8ed; }
+.project-list .ssh05-example { background: #102b35; }
+.project-list .example-panel { background: #162c34; }
+@media (max-width: 59.99rem) {
+  .project-list .showcase { min-height: 0; padding-block: 3rem; }
+  .project-list .showcase__content { padding: 1.15rem; }
+  .project-message { padding-block: 1.1rem 1.8rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .project-list .showcase__content { backdrop-filter: none; }
+}

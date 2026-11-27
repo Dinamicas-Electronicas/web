@@ -27,7 +27,7 @@
         if (rect.bottom < -240 || rect.top > viewport + 240) return;
         var speed = parseFloat(item.getAttribute("data-parallax")) || 0;
         var center = rect.top + rect.height / 2 - viewport / 2;
-        var limit = window.innerWidth < 768 ? 42 : 80;
+        var limit = window.innerWidth < 768 ? 76 : 148;
         var offset = clamp(-center / viewport, -0.65, 0.65) * limit * speed / 0.65;
         item.style.setProperty("--parallax", offset.toFixed(1) + "px");
       });
