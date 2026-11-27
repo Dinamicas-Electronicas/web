@@ -1884,3 +1884,15 @@ img.logo-wordmark__mark {
 }
 
 .hero--home, .parallax-band { overflow: clip; }
+
+.kagorisu-showcase { background: #fff8ed; }
+.kagorisu-showcase .showcase__media-inner img { object-fit: contain; padding: 9%; }
+.kagorisu-mark, .kagorisu-icon {
+  display: block;
+  flex: none;
+  object-fit: contain;
+  padding: .25rem;
+  border-radius: .65rem;
+  background: #fff8ed;
+}
+.kagorisu-icon { margin-bottom: .65rem; }
