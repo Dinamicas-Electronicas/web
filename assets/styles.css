@@ -1896,3 +1896,16 @@ img.logo-wordmark__mark {
   background: #fff8ed;
 }
 .kagorisu-icon { margin-bottom: .65rem; }
+
+.ssh05-example {
+  display: grid;
+  align-content: center;
+  padding: clamp(1.25rem, 4vw, 3rem);
+  background: #102b35;
+  color: #fff;
+  aspect-ratio: auto;
+  min-height: 17rem;
+}
+.ssh05-example code, .ssh05-example .section__eyebrow { color: #75edc9; }
+.ssh05-example code { font-size: var(--step-1); }
+.ssh05-example p { margin: 1.1rem 0 .3rem; }
